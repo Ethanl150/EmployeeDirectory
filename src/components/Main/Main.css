@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+}
+
+tr {
+    height: 100px;
+}
+
+thead tr {
+    height: 50px;
+    background-color: #2c0be7;
+    color: white;
+}
+
+.AZ {
+    font-size: x-small;
+}
+
+.img {
+    padding: 10px;
+}
+
+.name {
+    display: inline-block;
+}
+
+.name:hover {
+    cursor: pointer;
+}

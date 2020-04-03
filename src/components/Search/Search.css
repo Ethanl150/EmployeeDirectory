@@ -1,0 +1,7 @@
+#search-bar {
+    display: block;
+    margin: 15px auto;
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

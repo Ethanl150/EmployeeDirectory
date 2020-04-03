@@ -1,18 +1,16 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Card from "./components/Card";
+import Header from "./components/Header/Header.js";
+import Main from "./components/Main/Main.js"
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Navbar />
-      <Card />
-      <Card />
-      <Card />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Main />
+      </div>
+    );
+  }
 }
 
 export default App;

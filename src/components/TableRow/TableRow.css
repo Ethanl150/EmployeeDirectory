@@ -1,0 +1,9 @@
+img {
+    border-radius: 10px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 243, 243);
+}
